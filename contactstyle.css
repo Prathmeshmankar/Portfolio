@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Exo+2:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contanier{
+    display: flex;
+}
+
+.sidebar{
+    background-color: lightgrey ;
+    width: 14vw;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+.sidebar nav li a:hover {
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.main{
+    /* background-color: pink; */
+    height: 60vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactform h1{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+
+
+
+
+
